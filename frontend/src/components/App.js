@@ -11,9 +11,11 @@ export default class App extends Component {
 
     render() {
         return (
+            <React.StrictMode>
             <div>
                 <HomePage />
             </div>
+            </React.StrictMode>
         )
     }
 }

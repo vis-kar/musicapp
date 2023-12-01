@@ -28,7 +28,7 @@ export default class CreateRoomPage extends Component {
     })
   }
 
-  handleCreateRoom = ()=>{
+  handleCreateRoom = () => {
     const requestOptions = {
       method: 'POST',
       headers: {
@@ -40,8 +40,8 @@ export default class CreateRoomPage extends Component {
       })
     }
     fetch('/api/create-room', requestOptions)
-    .then((response) => response.json())
-    .then((data) => console.log(data));
+      .then((response) => response.json())
+      .then((data) => console.log(data));
   }
 
   render() {
