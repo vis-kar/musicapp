@@ -49,7 +49,7 @@ export default function MusicPlayer(props) {
                             {props.is_playing ? <PauseCircleFilled /> : <PlayArrow />}
                         </IconButton>
                         <IconButton onClick={skipButtonPressed}>
-                            <SkipNext />
+                            <SkipNext /> {props.votes} / {props.votes_required}
                         </IconButton>
                     </div>
                 </Grid>
