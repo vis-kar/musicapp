@@ -1,0 +1,6 @@
+env-1
+frontend/node_modules
+**/migrations
+**/__pycache__/
+Pipfile
+spotify/credentials.py
